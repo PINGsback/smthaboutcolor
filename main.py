@@ -366,5 +366,6 @@ def updateBg():
 show.after(0, updateBg)
 
 show.mainloop()
-    
-#root.mainloop()
+
+if doRoot:
+  root.mainloop()
